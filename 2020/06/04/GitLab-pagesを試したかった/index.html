@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>GitLab-pagesを試したかった | Soto&#39;s blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="WordPressの管理はもう嫌だ！学科Webの管理はシス管が行っていますが、その中で良く言われているのがこれです。学科サイトやnews-ieだけでなく、学生個人のページも同一のWordPressで管理しています。設定を変更するだけなら簡単なのですが、全ての記事が一つのDBに格納されていて誰もあまり触りたくない状況です。 そこでもうWordPressを使わないで良いようにしようという感じになって">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GitLab-pagesを試したかった">
+<meta property="og:url" content="https://soto0201.github.io/2020/06/04/GitLab-pages%E3%82%92%E8%A9%A6%E3%81%97%E3%81%9F%E3%81%8B%E3%81%A3%E3%81%9F/index.html">
+<meta property="og:site_name" content="Soto&#39;s blog">
+<meta property="og:description" content="WordPressの管理はもう嫌だ！学科Webの管理はシス管が行っていますが、その中で良く言われているのがこれです。学科サイトやnews-ieだけでなく、学生個人のページも同一のWordPressで管理しています。設定を変更するだけなら簡単なのですが、全ての記事が一つのDBに格納されていて誰もあまり触りたくない状況です。 そこでもうWordPressを使わないで良いようにしようという感じになって">
+<meta property="og:locale" content="ja_JP">
+<meta property="article:published_time" content="2020-06-04T01:24:45.000Z">
+<meta property="article:modified_time" content="2020-06-05T17:40:03.465Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="日記">
+<meta property="article:tag" content="シス管">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Soto&#39;s blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Soto&#39;s blog</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">〜思いついたことを気ままに書いていく〜</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSSフィード"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="検索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://soto0201.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-GitLab-pagesを試したかった" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/06/04/GitLab-pages%E3%82%92%E8%A9%A6%E3%81%97%E3%81%9F%E3%81%8B%E3%81%A3%E3%81%9F/" class="article-date">
+  <time datetime="2020-06-04T01:24:45.000Z" itemprop="datePublished">2020-06-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      GitLab-pagesを試したかった
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <hr>
+<h3 id="WordPressの管理はもう嫌だ！"><a href="#WordPressの管理はもう嫌だ！" class="headerlink" title="WordPressの管理はもう嫌だ！"></a>WordPressの管理はもう嫌だ！</h3><p>学科Webの管理はシス管が行っていますが、その中で良く言われているのがこれです。<br>学科サイトやnews-ieだけでなく、学生個人のページも同一のWordPressで管理しています。<br>設定を変更するだけなら簡単なのですが、全ての記事が一つのDBに格納されていて誰もあまり触りたくない状況です。</p>
+<p>そこでもうWordPressを使わないで良いようにしようという感じになっています？<br>(最近はシス管のMTGに出ていなかったので情報が曖昧です…)</p>
+<h3 id="学生のページをGitLab-pagesに移行できないかという案"><a href="#学生のページをGitLab-pagesに移行できないかという案" class="headerlink" title="学生のページをGitLab pagesに移行できないかという案"></a>学生のページをGitLab pagesに移行できないかという案</h3><p>学生のページは、ie-homeという学生用のサーバーに指定された方法でindex.htmlなどを置くと、<br>FTPサーバーが動くのですが、それではバージョン管理とかしづらい…それに自動でデプロイとかして欲しいですよね…？</p>
+<p>また、簡単にブログを書けるようにか(kono先生の思惑か)、学生個人にWordPressのサイトが割り当てられています。<br>こちらは前述した通り、シス管が管理が面倒すぎて嫌になっているという感じです。<br>どれだけ触りたくないか、WordPressに設定されているDBを覗くとわかります。<br>そもそもかなりたくさんあるサイトを一つのDBで担っているというのを聞くだけでヤバそうというのがわかると思います。</p>
+<p>という訳で、WordPressから脱出するべく、<br>学科のGitLabでPagesの機能を使えないか試行錯誤していました。</p>
+<h3 id="詰まったところ"><a href="#詰まったところ" class="headerlink" title="詰まったところ"></a>詰まったところ</h3><p>GitLabをdockerで構築して試していたのですが、詰まった部分があったので、以下箇条書きで書きます。</p>
+<ul>
+<li>学科サーバーのCにDockerを立てていましたが、TCPサーバーのポートをMK氏に取られました<ul>
+<li>httpのポートでアクセスしようとしていました。そこでなぜか全然接続できなかった。</li>
+<li>httpsのポートでアクセスしないといけないらしいです。ぐぬぬ…443のポートがhttpsと知りませんでした…</li>
+</ul>
+</li>
+<li>GitLab runnnerの設定で詰まる。<ul>
+<li>docker networkでGitLabに接続しないといけないらしかったです。</li>
+<li>加えて、証明書が必要だった。MK氏に<a href="https://qiita.com/tamanugi/items/170bb2bcf35a86d3111c" target="_blank" rel="noopener">ここ</a>を教えてもらって解決しました。<ul>
+<li>証明書の名前はドメインと一緒でないと駄目であることを学びました。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="未解決部分"><a href="#未解決部分" class="headerlink" title="未解決部分"></a>未解決部分</h4><p>GitLab runnnerをdockerで立ち上げています。ですが、その中でさらにdockerが立ち上がるらしいです。<br>そうなるとそこでGitLabのドメインが解釈できなくなって詰みます。</p>
+<p>GitLab runnerで設定したGitLabのURLはdocker networkで設定しているので、<br>そこの上で立ち上がるdockerコンテナはドメインを理解できません…</p>
+<p>現在考えつく解決方法としては、</p>
+<ul>
+<li>学科のDNSサーバーを使う</li>
+<li>GitLabのURLを理解できるdocker imageを自分で作成して、それをGitLab runnerで設定する</li>
+</ul>
+<p>これらなどでしょうか</p>
+<h3 id="次は"><a href="#次は" class="headerlink" title="次は"></a>次は</h3><p>思いついた解決方法を試すほかないです…<br>やはり学科のvmに構築した方が早いのでは…そっちの方がドメインの理解しやすいですし…</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://soto0201.github.io/2020/06/04/GitLab-pages%E3%82%92%E8%A9%A6%E3%81%97%E3%81%9F%E3%81%8B%E3%81%A3%E3%81%9F/" data-id="ckb2herna0000k6y5c8jgekfr" class="article-share-link">共有</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E3%82%B7%E3%82%B9%E7%AE%A1/" rel="tag">シス管</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%97%A5%E8%A8%98/" rel="tag">日記</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/06/03/%E4%B9%85%E3%81%97%E3%81%B6%E3%82%8A%E3%81%AE%E3%83%8F%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%A7%E3%81%97%E3%81%9F/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前の記事</strong>
+      <div class="article-nav-title">久しぶりのハリーズでした</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">タグ</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/AtCoder/" rel="tag">AtCoder</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/info/" rel="tag">info</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%82%B0%E3%83%A9%E3%83%96%E3%83%AB/" rel="tag">グラブル</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%82%B7%E3%82%B9%E7%AE%A1/" rel="tag">シス管</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E3%82%BC%E3%83%9F/" rel="tag">ゼミ</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%82%99%E5%BF%98%E9%8C%B2/" rel="tag">備忘録</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E8%A8%98/" rel="tag">日記</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A0%94%E7%A9%B6/" rel="tag">研究</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">タグクラウド</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/AtCoder/" style="font-size: 15px;">AtCoder</a> <a href="/tags/info/" style="font-size: 10px;">info</a> <a href="/tags/%E3%82%B0%E3%83%A9%E3%83%96%E3%83%AB/" style="font-size: 10px;">グラブル</a> <a href="/tags/%E3%82%B7%E3%82%B9%E7%AE%A1/" style="font-size: 10px;">シス管</a> <a href="/tags/%E3%82%BC%E3%83%9F/" style="font-size: 10px;">ゼミ</a> <a href="/tags/%E5%82%99%E5%BF%98%E9%8C%B2/" style="font-size: 10px;">備忘録</a> <a href="/tags/%E6%97%A5%E8%A8%98/" style="font-size: 20px;">日記</a> <a href="/tags/%E7%A0%94%E7%A9%B6/" style="font-size: 15px;">研究</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">アーカイブ</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">6月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">5月 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最近の投稿</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/06/04/GitLab-pages%E3%82%92%E8%A9%A6%E3%81%97%E3%81%9F%E3%81%8B%E3%81%A3%E3%81%9F/">GitLab-pagesを試したかった</a>
+          </li>
+        
+          <li>
+            <a href="/2020/06/03/%E4%B9%85%E3%81%97%E3%81%B6%E3%82%8A%E3%81%AE%E3%83%8F%E3%83%AA%E3%83%BC%E3%82%BA%E3%81%A7%E3%81%97%E3%81%9F/">久しぶりのハリーズでした</a>
+          </li>
+        
+          <li>
+            <a href="/2020/06/02/%E7%AB%B6%E6%8A%80%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%92%E3%82%84%E3%82%8B%E7%90%86%E7%94%B1%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/">競技プログラミングをやる理由について</a>
+          </li>
+        
+          <li>
+            <a href="/2020/06/01/%E5%9C%9F%E6%97%A5%E3%81%AF%E4%BC%91%E3%82%80%E3%81%8C%E5%90%89%E3%81%A3%E3%81%BD%E3%81%84%EF%BC%9F/">土日は休むが吉っぽい？</a>
+          </li>
+        
+          <li>
+            <a href="/2020/05/29/Hoare-Logic%E3%81%AE%E8%AB%96%E6%96%87%E3%82%92%E7%BF%BB%E8%A8%B3%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%81%8C/">Hoare-Logicの論文を翻訳していますが</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
