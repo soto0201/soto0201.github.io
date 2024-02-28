@@ -2,9 +2,9 @@
 
 
 <html theme="dark" showBanner="true" hasBanner="false" > 
-<link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
-<link href="/fontawesome/css/brands.css" rel="stylesheet">
-<link href="/fontawesome/css/solid.css" rel="stylesheet">
+<link href="https://cdn.staticfile.org/font-awesome/6.4.2/css/fontawesome.min.css" rel="stylesheet">
+<link href="https://cdn.staticfile.org/font-awesome/6.4.2/css/brands.min.css" rel="stylesheet">
+<link href="https://cdn.staticfile.org/font-awesome/6.4.2/css/solid.min.css" rel="stylesheet">
 <script src="/js/color.global.min.js" ></script>
 <script src="/js/load-settings.js" ></script>
 <head>
@@ -48,7 +48,7 @@
 <body>
   
    
-  <div id="main-grid" class="shadow   ">
+  <div id="main-grid" class="  ">
     <div id="nav" class=" is_home "  >
       <navbar id="navbar">
   <nav id="title-nav">
@@ -143,7 +143,32 @@
   <div class="widget-wrap">
     <div class="widget">
       <h3 class="widget-title">Categories</h3>
-      <div class="category-box"></div>
+      <div class="category-box">
+            <a class="category-link" href="/categories/other/">
+                other
+                <div class="category-count">4</div>
+            </a>
+        
+            <a class="category-link" href="/categories/Windows/">
+                Windows
+                <div class="category-count">3</div>
+            </a>
+        
+            <a class="category-link" href="/categories/Linux/">
+                Linux
+                <div class="category-count">3</div>
+            </a>
+        
+            <a class="category-link" href="/categories/Game/">
+                Game
+                <div class="category-count">1</div>
+            </a>
+        <div class="children"><div class="category-box">
+            <a class="category-link" href="/categories/Game/Indie/">
+                Indie
+                <div class="category-count">1</div>
+            </a>
+        </div></div></div>
     </div>
   </div>
 
@@ -233,6 +258,7 @@
       
    
 
+
 <article id="post-diary/2023/10/2023-10-21(Sat)" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
    
   <div class="article-inner">
@@ -263,7 +289,7 @@
   
           </div>
           <div class="wordcount need-seperator meta-info">
-            911 words 
+            1.5k words 
           </div>
         </div>
         
@@ -273,11 +299,13 @@
       <div class="e-content article-entry" itemprop="articleBody">
         
           <div class="truncate-text">
-            ブログを書きたいと思うことは多いが、はてなブログなどのサービスは自由度が低い。webページまで書きに行くのが手間がかかる。加えて手元で書いたものをコピペするのは冗長だと感じてしまう。
+            
+              ブログを書きたいと思うことは多いが、はてなブログなどのサービスは自由度が低い。webページまで書きに行くのが手間がかかる。加えて手元で書いたものをコピペするのは冗長だと感じてしまう。
 別の方法として、hugoや以前使用していたhexoなどの静的サイトジェネレータを github pages にデプロイする方法がある。しかしこれではファイルに記事の内容を書き出してコマンドを実行して github pages にデプロイする必要がある。
 obsidian-gitを使用したHexoの自動デプロイそこで、日頃から使用している obsidian の git 同期の機能とgithub actions の機能を組み合わせることで自動デプロイされるようにする。
 hexoの環境構築手始めにHexo公式の通りに npm からインストールし、流れに沿ってhexo server で localhost:4000 にてwebページが表示されるようにする。
-Github Pages にデプロイしてみるローカル環境でhexo clean &amp;&amp; hexo deployなどのコマンドにて、そもそも...  
+Github Pages にデプロイしてみるローカル環境でhexo clean &amp;&amp; hexo deployなどのコマンドにて、そもそも...
+            
           </div>
         
       </div>
@@ -299,7 +327,10 @@ Github Pages にデプロイしてみるローカル環境でhexo clean &amp;&am
   
 </article>
 
- 
+
+
+
+
 
 
   <nav id="page-nav">
