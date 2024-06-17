@@ -14,19 +14,26 @@
   
 
   
-  <title>Tag: タイピング | Soto&#39;s blog</title>
+  <title>ブログにMermaid記法でグラフを載せる | Soto&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="preload" href="/css/fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
   <link rel="preload" href="/css/fonts/Roboto-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Soto&#39;s blog">
-<meta property="og:url" content="https://soto0201.github.io/tags/%E3%82%BF%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0/index.html">
+  <meta name="description" content="これまでずっとブログの中にMermaid記法によるグラフを使いたいと思っていたが、ずっとできずにいました。だが、ついに実装することができたのでその方法と使い方をここに記す。 導入方法  .vkr-url-wrapper {     padding: 10px;     border-radius: 5px;     border: 1px solid;     border-color: #eee">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ブログにMermaid記法でグラフを載せる">
+<meta property="og:url" content="https://soto0201.github.io/Hexo/1af2142f4e97/index.html">
 <meta property="og:site_name" content="Soto&#39;s blog">
+<meta property="og:description" content="これまでずっとブログの中にMermaid記法によるグラフを使いたいと思っていたが、ずっとできずにいました。だが、ついに実装することができたのでその方法と使い方をここに記す。 導入方法  .vkr-url-wrapper {     padding: 10px;     border-radius: 5px;     border: 1px solid;     border-color: #eee">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://github.com/favicon.ico">
+<meta property="article:published_time" content="2024-06-16T12:29:59.000Z">
+<meta property="article:modified_time" content="2024-06-17T12:21:50.452Z">
 <meta property="article:author" content="soto">
+<meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://github.com/favicon.ico">
   
     <link rel="alternate" href="/atom.xml" title="Soto's blog" type="application/atom+xml">
   
@@ -281,44 +288,159 @@
     <div id="content-body">
        
 
-<div class="archive-main-card">
-    <div class="archive-top">
-      <div class="main-title-bar">
-        <div class="main-title-dot"></div>
-        <h1 class="article-title">Archives</h1>
-      </div>    
+
+<article id="post-diary/2024/06/2024-06-16(Sun)" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  
+    
+   
+  <div class="article-inner">
+    <div class="article-main">
+      <header class="article-header">
+        
+<div class="main-title-bar">
+  <div class="main-title-dot"></div>
+  
+    
+      <h1 class="p-name article-title" itemprop="headline name">
+        ブログにMermaid記法でグラフを載せる
+      </h1>
+    
+  
+</div>
+
+        <div class='meta-info-bar'>
+          <div class="meta-info">
+  <time class="dt-published" datetime="2024-06-16T12:29:59.000Z" itemprop="datePublished">2024-06-16</time>
+</div>
+          <div class="need-seperator meta-info">
+            <div class="meta-cate-flex">
+  
+  <a class="meta-cate-link" href="/categories/Hexo/">Hexo</a>
+   
+</div>
+  
+          </div>
+          <div class="wordcount need-seperator meta-info">
+            2.2k words 
+          </div>
+        </div>
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li></ul>
+
+      </header>
+      <div class="e-content article-entry" itemprop="articleBody">
+        
+          <p>これまでずっとブログの中にMermaid記法によるグラフを使いたいと思っていたが、ずっとできずにいました。<br>だが、ついに実装することができたのでその方法と使い方をここに記す。</p>
+<h1 id="導入方法"><a href="#導入方法" class="headerlink" title="導入方法"></a>導入方法</h1><div class="vkr-url-wrapper">
+<style>
+.vkr-url-wrapper {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #eee #ddd #bbb;
+    box-shadow: rgba(0,0,0,.14) 0 1px 3px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.vkr-url-wrapper .desc-wrapper > hr {
+    margin: 10px 0;
+    height: 1px;
+}
+.vkr-url-wrapper .avatar {
+    width: 100px;
+    height: 100px;
+    border: solid 1px #eee;
+    box-shadow: none!important;
+    margin: 0;
+    margin-right: 10px;
+}
+.vkr-url-wrapper h2 {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.vkr-url-wrapper .desc-wrapper {
+    flex: 1;
+}
+.vkr-url-wrapper .desc-wrapper a {
+    font-size: 22px;
+    font-weight: 700;
+}
+</style>
+    
+        <a target="_blank" rel="noopener" href="https://github.com/webappdevelp/hexo-filter-mermaid-diagrams"><img class="avatar" src="https://github.com/favicon.ico" ></a>
+    
+    <div class="desc-wrapper">
+        <a target="_blank" rel="noopener" href="https://github.com/webappdevelp/hexo-filter-mermaid-diagrams">hexo-filter-mermaid-diagrams</a>
+        <hr />
+        <div class="desc">mermaid diagrams for hexo</div>
+    </div>
+</div>
+<p>このプラグインをインストールするだけなのですが、このプラグインの設定が難しいです。<br>プラグインのREADMEには、<code>after-footer.ejs</code>に設定を記入しろと書いています。<br>おそらくMarkdawnのパーサーに介入するために設定する必要があります。<br>さらにその設定をする場所には何もないのでChatGPTに手伝ってもらいながらインストールしました。</p>
+<h1 id="テーマの場所はどこでもよかった"><a href="#テーマの場所はどこでもよかった" class="headerlink" title="テーマの場所はどこでもよかった"></a>テーマの場所はどこでもよかった</h1><p>いままでずっとviviaのテーマのリポジトリをそのまま使用していました。<br>この場合、テーマの本体はnode_moduleの中に入っています。<br>しかしHexoの公式にはthemesの方にそのままリポジトリを入れてもよいとあったので、そこに移動させます。つまり以下のコマンドをリポジトリで行います。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cp</span> -r node_modules/hexo_themes_viva/* themes/viva</span><br></pre></td></tr></table></figure>
+<p><code>themes/layout/_partial/head.ejs</code>にREADMEで言われている以下の設定を記入すると無事mermaid記法が使えるようになりました。</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;% <span class="keyword">if</span> (theme.<span class="property">mermaid</span>.<span class="property">enable</span>) &#123; %&gt;</span><br><span class="line">  <span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&#x27;https://unpkg.com/mermaid@&lt;%= theme.mermaid.version %&gt;/dist/mermaid.min.js&#x27;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">  <span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="keyword">if</span> (<span class="variable language_">window</span>.<span class="property">mermaid</span>) &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">      mermaid.<span class="title function_">initialize</span>(&#123;<span class="attr">theme</span>: <span class="string">&#x27;forest&#x27;</span>&#125;);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">  </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="そこで現れる問題"><a href="#そこで現れる問題" class="headerlink" title="そこで現れる問題"></a>そこで現れる問題</h1><p>もともとの場所にあるpackage.jsonと、hexo-thema-vivaにあるpackage.jsonの両方のパッケージをインストールする必要があります。これを依存関係に入れると公式は言っていましたが、その方法がわからなかったためChatGPTに聞いたところ、jqコマンドを使用して、合成することができると言われました。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jq -s <span class="string">&#x27;.[0] * .[1]&#x27;</span> /path/to/project1/package.json /path/to/project2/package.json &gt; /path/to/merged/package.json</span><br></pre></td></tr></table></figure>
+<p>実際にやってみたところ普通にnpm ciのコマンドで動作させることができたので、やっぱChatGPTすごい。というかjqコマンドでjsonの合成できたんだ。</p>
+<h1 id="使い方"><a href="#使い方" class="headerlink" title="使い方"></a>使い方</h1><p>あとはブログ中にコードブロックで記述することでmermaid記法を使用することができます。<br>今後はフローチャートやER図を使用したくなったらそのまま使うことができます。やったね。</p>
+<p>これを描くと…</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">graph TD;</span><br><span class="line">    A--&gt;B;</span><br><span class="line">    A--&gt;C;</span><br><span class="line">    B--&gt;D;</span><br><span class="line">    C--&gt;D;</span><br></pre></td></tr></table></figure>
+
+<p>これが表示される</p>
+<pre class="mermaid">graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;</pre>
+
+<p>ちゃんとコードブロックにmermaidと指定する必要があるので注意です。</p>
+<h1 id="終わり"><a href="#終わり" class="headerlink" title="終わり"></a>終わり</h1><p>ChatGPTにかなり頼りましたがMermaid記法をブログで使用できるようになりました。</p>
+<p>実はAstroという性的サイトジェネレーターを使用しようかとも思いましたが、Hexoの方で使えるようになったのでそのまま据え置きになりました。<br>ただ、Astroの方にもよさそうなテーマが多いので普通に使ってみたいというのは内緒。テーマを自分で作ってみるのも面白そうだよなぁ…Hexoで使っているテーマのViviaは更新が止まっているし、今回入れたプラグインも6年前の代物だし…<br>まあ思い立ったときにやります。</p>
+
+        
+      </div>
+
+         
     </div>
     
-    
-      
-      
-        
-        <div class="year-line">
-            <div class="year-num">2023</div>
-            <div class="dot-wrapper">
-                <div class="dot"></div>
-            </div>
-            <div class="article-count">1 article</div>
-        </div>
-      
-      <a class="archive-article-link" href="/other/a1a586f81093/" title="プログラミング7年生、やっとタッチタイピングを習得する">
-        <div class="date">11-12</div>
-        <div class="line">
-            <div class="dot"></div>
-        </div>
-        <div class="title">
-            <div class="title-inner">
-                
-                    プログラミング7年生、やっとタッチタイピングを習得する
-                
-            </div>
-        </div>
-        <div class="tags">
-            #タイピング
-        </div>
-      </a>
-    
+     
   </div>
+  
+    
+<nav id="article-nav">
+  <a class="article-nav-btn left  disabled "
+     >
+    <i class="fa-solid fa-angle-left"></i>
+    <p class="title-text">
+        
+    </p>
+  </a>
+  <a class="article-nav-btn right "
+    
+      href="/other/1122d7c4032d/"
+      title="そういえば再就職しました"
+     >
+
+    <p class="title-text">
+      
+        そういえば再就職しました
+        
+    </p>
+    <i class="fa-solid fa-angle-right"></i>
+  </a>
+</nav>
+
+
+  
+</article>
+
+
+
+
+
     </div>
     <div id="footer-wrapper">
       <footer id="footer">
